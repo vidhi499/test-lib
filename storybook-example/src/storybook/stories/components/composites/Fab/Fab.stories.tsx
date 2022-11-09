@@ -3,7 +3,6 @@ import { StorybookArgs } from './Fab.args';
 
 import { Fab, Icon, Box, AddIcon } from 'components';
 import React from 'react';
-import { AntDesign } from '@expo/vector-icons';
 
 const FabTest = ({ ...args }) => {
   return (

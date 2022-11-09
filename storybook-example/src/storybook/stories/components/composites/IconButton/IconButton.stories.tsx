@@ -3,7 +3,6 @@ import { StorybookArgs } from './IconButton.args';
 
 import React from 'react';
 import { IconButton, CheckIcon } from 'components';
-import { AntDesign } from '@expo/vector-icons';
 
 const IconButtonTest = ({ ...args }) => {
   return (
