@@ -3,7 +3,7 @@ import {
   StorybookButtonArgs,
   StorybookCheckboxArgs,
   StorybookHeadingArgs,
-  StorybookIconArgs,
+  // StorybookIconArgs,
   StorybookInputArgs,
   StorybookLinkArgs,
   StorybookRadioArgs,
@@ -178,7 +178,7 @@ export const config = {
     },
     AddIcon: {
       args: {
-        size: { ...StorybookIconArgs.size },
+        // size: { ...StorybookIconArgs.size },
       },
       pageConfig: {
         type: '',
