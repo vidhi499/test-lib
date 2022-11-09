@@ -759,19 +759,7 @@ export declare const config: {
             };
         };
         AddIcon: {
-            args: {
-                size: {
-                    name: string;
-                    type: {
-                        name: string;
-                    };
-                    defaultValue: string;
-                    control: {
-                        type: string;
-                    };
-                    options: string[];
-                };
-            };
+            args: {};
             pageConfig: {
                 type: string;
                 section: string;
