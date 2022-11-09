@@ -9,8 +9,9 @@
   "typings": "lib/typescript/index.d.ts",
   "private": false,
   "dependencies": {
-    "native-base": "3.4.17",
+    "@expo/vector-icons": "^13.0.0",
     "lodash.isempty": "^4.4.0",
+    "native-base": "3.4.17",
     "react-native": "^0.70.2",
     "react-native-safe-area-context": "3.3.2",
     "react-native-svg": "12.1.1",

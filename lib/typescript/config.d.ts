@@ -782,51 +782,6 @@ export declare const config: {
                 };
             };
         };
-        Icon: {
-            args: {
-                size: {
-                    name: string;
-                    type: {
-                        name: string;
-                    };
-                    defaultValue: string;
-                    control: {
-                        type: string;
-                    };
-                    options: string[];
-                };
-                as: {
-                    name: string;
-                    type: {
-                        name: string;
-                    };
-                    control: {
-                        type: string;
-                    };
-                    options: string[];
-                };
-                name: {
-                    name: string;
-                    type: {
-                        name: string;
-                    };
-                    options: string[];
-                    control: {
-                        type: string;
-                    };
-                };
-            };
-            pageConfig: {
-                type: string;
-                section: string;
-                row: string;
-                component: string;
-                metaData: {
-                    heading: string;
-                    'sub-heading': string;
-                };
-            };
-        };
     };
     foundation: {
         Colors: {};
