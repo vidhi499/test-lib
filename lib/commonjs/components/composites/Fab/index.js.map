@@ -1,1 +1,0 @@
-{"version":3,"names":[],"sources":["index.tsx"],"sourcesContent":["import { default as Fab } from './Fab';\nexport type { IFabProps } from './types';\nexport { Fab }"],"mappings":"4OAAA"}
