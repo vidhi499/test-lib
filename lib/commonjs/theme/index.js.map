@@ -1,0 +1,1 @@
+{"version":3,"names":["theme","colors","components"],"sources":["index.ts"],"sourcesContent":["export const theme = {\n  colors: {},\n  components: {},\n};\n"],"mappings":"8EAAO,GAAMA,MAAK,CAAG,CACnBC,MAAM,CAAE,EADW,CAEnBC,UAAU,CAAE,EAFO,CAAd,C"}

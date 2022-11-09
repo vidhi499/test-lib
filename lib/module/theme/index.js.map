@@ -1,0 +1,1 @@
+{"version":3,"names":["myTheme","extendTheme"],"sources":["index.tsx"],"sourcesContent":["import { extendTheme } from \"native-base\";export const myTheme = extendTheme({\"components\":{}});"],"mappings":"gFAAA,uCAAiD,GAAMA,QAAO,CAAG,GAAAC,uBAAA,EAAY,CAAC,aAAa,EAAd,CAAZ,CAAhB,C"}

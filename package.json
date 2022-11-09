@@ -1,5 +1,5 @@
 {
-  "name": "comp-lib-template",
+  "name": "components",
   "version": "0.1.8",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
