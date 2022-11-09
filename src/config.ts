@@ -190,51 +190,51 @@ export const config = {
         },
       },
     },
-    Icon: {
-      args: {
-        size: { ...StorybookIconArgs.size },
-        as: {
-          name: 'as',
-          type: {
-            name: 'string',
-          },
-          control: {
-            type: 'select',
-          },
-          options: ['Entypo'],
-        },
-        name: {
-          name: 'name',
-          type: {
-            name: 'string',
-          },
-          options: [
-            '500px',
-            'add-to-list',
-            'add-user',
-            'address',
-            'adjust',
-            'attachment',
-            'folder',
-            'infinity',
-            'instagram',
-          ],
-          control: {
-            type: 'select',
-          },
-        },
-      },
-      pageConfig: {
-        type: '',
-        section: 'name',
-        row: 'size',
-        component: 'states',
-        metaData: {
-          'heading': 'Icons',
-          'sub-heading': 'Few icons from Entypo lib.',
-        },
-      },
-    },
+    // Icon: {
+    //   args: {
+    //     size: { ...StorybookIconArgs.size },
+    //     as: {
+    //       name: 'as',
+    //       type: {
+    //         name: 'string',
+    //       },
+    //       control: {
+    //         type: 'select',
+    //       },
+    //       options: ['Entypo'],
+    //     },
+    //     name: {
+    //       name: 'name',
+    //       type: {
+    //         name: 'string',
+    //       },
+    //       options: [
+    //         '500px',
+    //         'add-to-list',
+    //         'add-user',
+    //         'address',
+    //         'adjust',
+    //         'attachment',
+    //         'folder',
+    //         'infinity',
+    //         'instagram',
+    //       ],
+    //       control: {
+    //         type: 'select',
+    //       },
+    //     },
+    //   },
+    //   pageConfig: {
+    //     type: '',
+    //     section: 'name',
+    //     row: 'size',
+    //     component: 'states',
+    //     metaData: {
+    //       'heading': 'Icons',
+    //       'sub-heading': 'Few icons from Entypo lib.',
+    //     },
+    //   },
+    // },
   },
   foundation: {
     Colors: {},
