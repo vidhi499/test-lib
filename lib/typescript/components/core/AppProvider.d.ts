@@ -1,6 +1,5 @@
 /// <reference types="react" />
 export declare const appTheme: {
-    colors: {};
     components: {};
 } & {
     components: {
