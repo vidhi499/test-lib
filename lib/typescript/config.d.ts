@@ -672,6 +672,52 @@ export declare const config: {
                 };
             };
         };
+        Slider: {
+            args: {
+                colorScheme: {
+                    name: string;
+                    type: {
+                        name: string;
+                        required: boolean;
+                    };
+                    defaultValue: string;
+                    options: string[];
+                    control: {
+                        type: string;
+                    };
+                };
+                size: {
+                    name: string;
+                    type: {
+                        name: string;
+                    };
+                    defaultValue: string;
+                    control: {
+                        type: string;
+                    };
+                    options: string[];
+                };
+                isDisabled: {
+                    name: string;
+                    type: {
+                        name: string;
+                    };
+                    defaultValue: boolean;
+                    control: {
+                        type: string;
+                    };
+                };
+            };
+            pageConfig: {
+                type: string;
+                section: string;
+                row: string;
+                component: string;
+                metaData: {
+                    heading: string;
+                };
+            };
+        };
         Switch: {
             args: {
                 isChecked: {

@@ -1,6 +1,6 @@
 import { appTheme as theme } from '../../../../../../../src/components/core/AppProvider';
 
-export const StorybookArgs = {
+export const StorybookBadgeArgs = {
   colorScheme: {
     name: 'colorScheme',
     type: { name: 'string', required: true },

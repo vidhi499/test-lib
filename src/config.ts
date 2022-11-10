@@ -10,6 +10,7 @@ import {
   StorybookSwitchArgs,
   StorybookTextAreaArgs,
   StorybookTextArgs,
+  StorybookSliderArgs,
   // StorybookTextArgs,
 } from './components/primitives';
 import { theme } from './theme';
@@ -140,18 +141,18 @@ export const config = {
         },
       },
     },
-    // Slider: {
-    //   args: StorybookSliderArgs,
-    //   pageConfig: {
-    //     type: "",
-    //     section: "size",
-    //     row: "colorScheme",
-    //     component: "states",
-    //     metaData: {
-    //       heading: "This is Slider.",
-    //     },
-    //   },
-    // },
+    Slider: {
+      args: StorybookSliderArgs,
+      pageConfig: {
+        type: '',
+        section: 'size',
+        row: 'colorScheme',
+        component: 'states',
+        metaData: {
+          heading: 'This is Slider.',
+        },
+      },
+    },
     // Select: {
     //   args: StorybookSliderArgs,
 
@@ -165,6 +166,9 @@ export const config = {
     //     },
     //   },
     // },
+    //     Badge:    {
+    // args:StorybookBadgeArgs
+    //     },
     Switch: {
       args: StorybookSwitchArgs,
       pageConfig: {
