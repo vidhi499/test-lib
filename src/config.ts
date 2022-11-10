@@ -239,6 +239,7 @@ export const config = {
   },
   foundation: {
     Colors: myTheme.colors,
+    theme: myTheme,
   },
 
   metaData: {},
