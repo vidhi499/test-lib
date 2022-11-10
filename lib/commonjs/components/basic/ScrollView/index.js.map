@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["index.tsx"],"sourcesContent":["export { ScrollView } from 'native-base';\nexport type { IScrollViewProps } from 'native-base';\n"],"mappings":"0KAAA"}

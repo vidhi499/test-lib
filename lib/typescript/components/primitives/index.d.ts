@@ -25,6 +25,8 @@ export { Select };
 export { StorybookSelectArgs } from './Select/SelectArgs';
 export { Slider };
 export { StorybookSliderArgs } from './Slider/SliderArgs';
+export * from './Icon/Icons';
+export { createIcon } from './Icon';
 export { Column } from './Column';
 export { Row } from './Row';
 export { Image } from './Image';

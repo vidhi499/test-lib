@@ -12,7 +12,7 @@ import {
   StorybookTextArgs,
   // StorybookTextArgs,
 } from './components/primitives';
-import { myTheme } from './theme';
+import { theme } from './theme';
 
 export const config = {
   components: {
@@ -238,8 +238,8 @@ export const config = {
     // },
   },
   foundation: {
-    Colors: myTheme.colors,
-    theme: myTheme,
+    Colors: theme.colors,
+    theme: theme,
   },
 
   metaData: {},

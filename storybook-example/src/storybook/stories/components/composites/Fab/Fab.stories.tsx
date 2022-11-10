@@ -1,7 +1,7 @@
 import { Wrapper } from '../../Wrapper';
 import { StorybookArgs } from './Fab.args';
 
-import { Fab, Icon, Box, AddIcon } from 'components';
+import { Fab, Box, AddIcon } from 'components';
 import React from 'react';
 
 const FabTest = ({ ...args }) => {
