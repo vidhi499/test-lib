@@ -29,7 +29,7 @@ export { Slider };
 export { StorybookSliderArgs } from './Slider/SliderArgs';
 export * from './Icon/Icons';
 
-export { createIcon } from './Icon';
+// export { createIcon } from './Icon';
 
 export { Column } from './Column';
 export { Row } from './Row';

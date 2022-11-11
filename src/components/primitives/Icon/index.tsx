@@ -35,4 +35,4 @@
 //   return <NBIcon as={map[as]} {...props} />;
 // };
 
-export { createIcon } from './createIcon';
+// export { createIcon } from './createIcon';
